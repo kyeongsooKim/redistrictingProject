@@ -1,0 +1,70 @@
+body{
+    padding-top: 10%;
+    background-image: url(./../img/states.png);
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-position: 100% 40%; 
+    
+}
+.my-nav{
+    background-color:white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+.my-nav-element{
+    color: grey;
+    transition: all 0.4s;
+    backface-visibility: hidden;
+}
+.my-nav-element:hover{
+    color:black;
+    transition: all 0.4s; 
+}
+.my-nav-element:active{
+    color:black;
+    transition: all 0.4s;
+}
+
+.my-nav-logo{
+    color:cornflowerblue;
+    font-size: 1.5em;
+    font-family:monospace;
+}
+
+hr{
+    width: 30%;
+    border-color: cornflowerblue;
+}
+
+.button{
+    background-color: cornflowerblue;
+    border-color: black;
+    transition: all 0.4s; 
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-color: cornflowerblue;
+    border-color: greenyellow;
+    transform: scale(1.05);
+    transition: all 0.4s; 
+    
+}
+
+.section{
+    background-color: rgba(1,1,1,.1);
+    border-color: cornflowerblue ;
+    border: 1px solid;
+    max-width: 80%;
+    margin: 0 auto;
+  
+}
+
+.contact{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.register{
+    
+}
