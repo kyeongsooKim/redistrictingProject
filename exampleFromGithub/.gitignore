@@ -1,0 +1,8 @@
+.DS_Store
+*/.DS_Store
+target/*
+/target/
+.classpath
+.project
+.settings/
+src/main/java/service/gerrymandering/testFile.java
